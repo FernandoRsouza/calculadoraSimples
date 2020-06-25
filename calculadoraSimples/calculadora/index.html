@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calculadora.css">
+    <script src="js/controller/calculadoraControl.js"></script>
+    <script src="js/model/calculadoraModel.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    
+ <div id="card01">
+    <div id="numero">
+        <input type="number" name="" id="n1"> 
+        <input type="number" name="" id="n2">
+     </div>
+    
+     <div id="botao">
+        <button class="btn" id="somar" type="button" onclick="calcularControl.somar()">Somar</button>
+        <button class="btn" id="subtrair" type="button" onclick="calcularControl.subtrair()">Subtrair</button>
+        <button class="btn" id="mult" type="button" onclick="calcularControl.mult()">Multiplicar</button>
+        <button class="btn"  id="dividi" type="button" onclick="calcularControl.divisao()">Dividir</button>
+     </div>
+ </div>
+
+    <table id="tabelaCalc">
+        
+        <tbody id="resultado">
+            
+        </tbody>
+        
+    </table>
+</body>
+</html>
