@@ -1,2 +1,2 @@
 # calculadoraSimples
-calculadora  para pratica inicias em Js
+calculadora  para pratica iniciais em Js
